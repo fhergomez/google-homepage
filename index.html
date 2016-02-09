@@ -4,22 +4,51 @@
   <meta charset="UTF-8">
   <title>Google</title>
   <!-- Latest compiled and minified CSS & JS -->
-  <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <script src="//code.jquery.com/jquery.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <!-- browser css reset -->
   <link rel="stylesheet" type="text/css" href="css/eric-meyer-reset.min.css">
+  <link rel="shortcut icon" href="http://www.google.com/images/branding/product/ico/googleg_lodp.ico" >
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
   <div id="main">
-    <ul>
-      <li><a href="default.asp">Home</a></li>
-      <li><a href="news.asp">News</a></li>
-      <li><a href="contact.asp">Contact</a></li>
-      <li><a href="about.asp">About</a></li>
-    </ul>
-
-    <img alt="Google" src="http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272px" height="92px">
+    <div class="navBar" style="min-width:30px;">
+      <ul>
+        <li><a href="#" class="active">Fher</a></li>
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#"><div class="appsIcon"></div></a></li>
+        <li><a href="#"><div class="bellIcon"></div></a></li>
+        <li><a href="#"><div class="photo"></div></a></li>
+      </ul>
+    </div>
+    <center>
+      <div id="logo">
+        <img alt="Google" src="http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+      </div>
+    </center>
+    <div id="searchForm">
+      <form>
+        <div class="inputBox">
+          <input type="text" title="search" placeholder="Search" />
+        </div>
+      </form>
+    </div>
+    <div id="footer">
+      <span class="fleft">
+        <a href="//www.google.com/intl/en/ads/?fg=1">Advertising</a>
+        <a href="//www.google.com/services/?fg=1">Business</a>
+        <a href="//www.google.com/intl/en/about.html?fg=1">About</a>
+      </span>
+      <span class="fright">
+        <a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+        <a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+        <a href="https://www.google.com/preferences?hl=en">Settings</a>
+      </span>
+    </div>
   </div>
 </body>
 </html>
